@@ -9,11 +9,43 @@ public class GradeMessage {
     String grade = scanner.next();
     scanner.close();
 
-    String message;
+    // String message;
 
-    switch (grade) {
-      case "A":
-        message = "Excellen job!";
-    }
+    // switch (grade) {
+    // case "A":
+    // case "a":
+    // message = "Excellent job!";
+    // break;
+    // case "B":
+    // case "b":
+    // message = "Great job!";
+    // break;
+    // case "C":
+    // case "c":
+    // message = "Good Job!";
+    // break;
+    // case "D":
+    // case "d":
+    // message = "Work Harder!";
+    // break;
+    // case "E":
+    // case "e":
+    // message = "This is bad!";
+    // break;
+    // default:
+    // message = "The grade is invalid!";
+    // break;
+    // }
+
+    String message = switch (grade) {
+      case "A", "a" -> "Excellent job!";
+      case "B", "b" -> "Great job!";
+      case "C", "c" -> "Good Job!";
+      case "D", "d" -> "Work Harder!";
+      case "E", "e" -> "This is bad!";
+      default -> "The grade is invalid!";
+    };
+
+    System.out.println(message);
   }
 }
