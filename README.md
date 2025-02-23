@@ -6,4 +6,4 @@ Hello! I'm Novel. Welcome to my learning journey through the TAU website. Here, 
 
 ## Getting Started
 
--the first task is in chapter 2
+-The task is in the src folder, started from chapter2 package and so on

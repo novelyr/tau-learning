@@ -3,7 +3,7 @@ package chapter2;
 import java.util.Scanner;
 
 public class task {
-  
+
   // trying getter and setter feature in vscode
   String name;
   String age;
@@ -24,8 +24,6 @@ public class task {
     this.age = age;
   }
 
-
-  
   public static void main(String[] args) {
     System.out.println("Enter today season");
     Scanner scanner = new Scanner(System.in);
@@ -38,6 +36,7 @@ public class task {
     var adjective = scanner.next();
     scanner.close();
 
-    System.out.println("On a " + adjective + " " + season + " day, I drink a minimum of " + number + " cups of coffee.");
+    System.out
+        .println("On a " + adjective + " " + season + " day, I drink a minimum of " + number + " cups of coffee.");
   }
 }
