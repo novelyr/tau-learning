@@ -1,10 +1,11 @@
-package chapter3;
+package learnjava.chapter3;
 
 import java.util.Scanner;
 
-public class QuotaCalculator {
+public class IfSalaryCalculator {
   public static void main(String[] args) {
-
+    int salary = 1000;
+    int bonus = 250;
     int quota = 10;
 
     System.out.println("How many sales do you get this week?");
@@ -13,12 +14,10 @@ public class QuotaCalculator {
     scanner.close();
 
     if (sales > quota) {
-      System.out.println("Congrats! You met this week's quota!");
-      ;
-    } else {
-      int salesShort = quota - sales;
-      System.out.println("I'm sorry, please work harder! You were " + salesShort + " sales short");
+
+      salary += bonus;
     }
 
+    System.out.println("Your salary this week is $" + salary);
   }
 }

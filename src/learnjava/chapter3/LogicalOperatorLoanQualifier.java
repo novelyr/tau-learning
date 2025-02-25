@@ -1,14 +1,14 @@
-package chapter3;
+package learnjava.chapter3;
 
 import java.util.Scanner;
 
 /*
- * NESTED IFS:
+ * Logical Operator:
  * To qualify for a loan, a person must make at least $30,000
  * and have been working at their current job for at least 2 years.
  */
 
-public class LoanQualifier {
+public class LogicalOperatorLoanQualifier {
 
   public static void main(String[] args) {
 
@@ -28,14 +28,11 @@ public class LoanQualifier {
     scanner.close();
 
     // Make decision
-    if (salary >= reqSalary) {
-      if (jobExp >= reqJobExp) {
-        System.out.println("Your loan is granted!");
-      } else {
-        System.out.println("I'm sorry, you need to work at least for " + reqJobExp + " years to be qualified.");
-      }
+    if (salary >= reqSalary && jobExp >= reqJobExp) {
+      System.out.println("Your loan is granted!");
     } else {
-      System.out.println("I'm sorry, you need to make at least $" + reqSalary + " a year to be qualified");
+      System.out.println("I'm sorry, you need to make at least $" + reqSalary + " a year and to work at least for "
+          + reqJobExp + " years to be qualified");
     }
 
   }

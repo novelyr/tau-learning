@@ -1,8 +1,8 @@
-package chapter3;
+package learnjava.chapter3;
 
 import java.util.Scanner;
 
-public class TestResult {
+public class IfElseIfTestResult {
 
   public static void main(String[] args) {
     System.out.println("What is your test result? (0-100)");

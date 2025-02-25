@@ -6,4 +6,4 @@ Hello! I'm Novel. Welcome to my learning journey through the TAU website. Here, 
 
 ## Getting Started
 
--The task is in the src folder, started from chapter2 package and so on
+-The package name is represent the module I learn. And inside it there would be more chapter that I learn and task that I finished.
