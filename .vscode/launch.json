@@ -1,0 +1,126 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "PhoneBillCalculator",
+      "request": "launch",
+      "mainClass": "learnjava.chapter5.PhoneBillCalculator",
+      "projectName": "taulearning_661efde2"
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "task",
+      "request": "launch",
+      "mainClass": "learnjava.chapter2.task",
+      "projectName": "taulearning_661efde2"
+    },
+    {
+      "type": "java",
+      "name": "GameTask",
+      "request": "launch",
+      "mainClass": "learnjava.chapter3.GameTask",
+      "projectName": "taulearning_661efde2"
+    },
+    {
+      "type": "java",
+      "name": "IfElseIfTestResult",
+      "request": "launch",
+      "mainClass": "learnjava.chapter3.IfElseIfTestResult",
+      "projectName": "taulearning_661efde2"
+    },
+    {
+      "type": "java",
+      "name": "IfElseQuotaCalculator",
+      "request": "launch",
+      "mainClass": "learnjava.chapter3.IfElseQuotaCalculator",
+      "projectName": "taulearning_661efde2"
+    },
+    {
+      "type": "java",
+      "name": "IfSalaryCalculator",
+      "request": "launch",
+      "mainClass": "learnjava.chapter3.IfSalaryCalculator",
+      "projectName": "taulearning_661efde2"
+    },
+    {
+      "type": "java",
+      "name": "LogicalOperatorLoanQualifier",
+      "request": "launch",
+      "mainClass": "learnjava.chapter3.LogicalOperatorLoanQualifier",
+      "projectName": "taulearning_661efde2"
+    },
+    {
+      "type": "java",
+      "name": "NestedIf",
+      "request": "launch",
+      "mainClass": "learnjava.chapter3.NestedIf",
+      "projectName": "taulearning_661efde2"
+    },
+    {
+      "type": "java",
+      "name": "SwitchCase",
+      "request": "launch",
+      "mainClass": "learnjava.chapter3.SwitchCase",
+      "projectName": "taulearning_661efde2"
+    },
+    {
+      "type": "java",
+      "name": "DiceGameTask",
+      "request": "launch",
+      "mainClass": "learnjava.chapter4.DiceGameTask",
+      "projectName": "taulearning_661efde2"
+    },
+    {
+      "type": "java",
+      "name": "DoWhile",
+      "request": "launch",
+      "mainClass": "learnjava.chapter4.DoWhile",
+      "projectName": "taulearning_661efde2"
+    },
+    {
+      "type": "java",
+      "name": "ForLoop",
+      "request": "launch",
+      "mainClass": "learnjava.chapter4.ForLoop",
+      "projectName": "taulearning_661efde2"
+    },
+    {
+      "type": "java",
+      "name": "NestedForLoops",
+      "request": "launch",
+      "mainClass": "learnjava.chapter4.NestedForLoops",
+      "projectName": "taulearning_661efde2"
+    },
+    {
+      "type": "java",
+      "name": "WhileLoop",
+      "request": "launch",
+      "mainClass": "learnjava.chapter4.WhileLoop",
+      "projectName": "taulearning_661efde2"
+    },
+    {
+      "type": "java",
+      "name": "methodGreetings",
+      "request": "launch",
+      "mainClass": "learnjava.chapter5.methodGreetings",
+      "projectName": "taulearning_661efde2"
+    },
+    {
+      "type": "java",
+      "name": "variableScope",
+      "request": "launch",
+      "mainClass": "learnjava.chapter5.variableScope",
+      "projectName": "taulearning_661efde2"
+    }
+  ]
+}

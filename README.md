@@ -6,4 +6,5 @@ Hello! I'm Novel. Welcome to my learning journey through the TAU website. Here, 
 
 ## Getting Started
 
--The package name is represent the module I learn. And inside it there would be more chapter that I learn and task that I finished.
+- The package name is represent the module I learn. And inside it there would be more chapter that I learn and task that I finished.
+- Feel free to run each file
